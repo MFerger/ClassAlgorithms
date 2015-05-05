@@ -100,13 +100,7 @@ Open `index.html` in a browser to see the tests run.  As you make changes to you
 1. Install [LoDash](https://lodash.com/) in index.html
 1. Use [LoDash Methods](https://lodash.com/docs), write code to pass specs
 
-## Challenge #2 - Pure JS
-
-1. Create a copy of `index.html`
-1. Remove the reference to LoDash
-1. Create a new function `roundRobinPure` and solve it with pure JS
-
-## Challenge #3 - Add UI
+## Challenge #2 - Add UI
 
 In a separate file called `ui.html` create an HTML page that:
 
@@ -121,6 +115,12 @@ In a separate file called `ui.html` create an HTML page that:
 ![](img/ui.png)
 
 NOTE: use custom CSS for this - no frameworks.
+
+## Challenge #3 - Pure JS
+
+1. Create a copy of `index.html`
+1. Remove the reference to LoDash
+1. Create a new function `roundRobinPure` and solve it with pure JS
 
 ## Challenge #4 - Solve w/ recursion
 
