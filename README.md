@@ -122,6 +122,10 @@ In a separate file called `ui.html` create an HTML page that:
 
 NOTE: use custom CSS for this - no frameworks.
 
+## Challenge #4 - Solve w/ recursion
+
+'nuff said.
+
 ## Resources
 
 * http://en.wikipedia.org/wiki/Round-robin_tournament#Scheduling_algorithm
