@@ -126,10 +126,6 @@ NOTE: use custom CSS for this - no frameworks.
 
 'nuff said.
 
-## Challenge #5 - To the browser
-
-Build a visual representation of your round robin in the browser. Start by showing the first round of matchups with a button that says "Next" on the DOM. When the button is clicked, update the DOM with the next round of matchups. After the final round, you should display a notice that says the round-robin is complete. 
-
 ## Resources
 
 * http://en.wikipedia.org/wiki/Round-robin_tournament#Scheduling_algorithm
