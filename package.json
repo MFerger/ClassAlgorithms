@@ -1,0 +1,27 @@
+{
+  "name": "round-robin-js",
+  "version": "1.0.0",
+  "description": "Round-Robin is a way to rotate an array of items such that each item can be paired with every other item exactly once.  In sports, this is a way to ensure that each team plays every other team exactly once.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSchool/round-robin-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSchool/round-robin-js/issues"
+  },
+  "homepage": "https://github.com/gSchool/round-robin-js#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}

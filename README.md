@@ -38,13 +38,13 @@ For example, for an array input of `[1,2,3,4]` the result would be:
 
 The result should look like this:
 
-![](img/original.png)
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/187/original.png)
 
 ### 2. Find the matches
 
 Take the first element of the first array, and match it with the first element of the second array, and so on.  Visually, that looks like:
 
-![](img/original-pairs.png)
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/182/original-pairs.png)
 
 In code, that looks like:
 
@@ -63,17 +63,17 @@ In code, that looks like:
 * Keep the first element of the first array in its position (it will never change)
 * Rotate the other numbers counter-clockwise
 
-![](img/rotation.png)
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/184/rotation.png)
 
 Which ends up looking like:
 
-![](img/post-rotation.png)
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/183/post-rotation.png)
 
 ### 4. Find the matches
 
 Take the first element of the first array, and match it with the first element of the second array, and so on.  Visually, that looks like:
 
-![](img/post-rotation-pairs.png)
+![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/185/post-rotation-pairs.png)
 
 ```
 [
@@ -95,37 +95,17 @@ You will be working in [Jasmine](http://jasmine.github.io/2.3/introduction.html)
 
 Open `index.html` in a browser to see the tests run.  As you make changes to your round robin js file, hit refresh (CMD+R) in your browser to run the tests again.
 
-## Challenge #1 - LoDash
+## Challenge #1
 
-1. Install [LoDash](https://lodash.com/) in index.html
-1. Use [LoDash Methods](https://lodash.com/docs), write code to pass specs
+Make the tests pass
 
-## Challenge #2 - Add UI
+## Challenge #2 - Solve w/ recursion
 
-In a separate file called `ui.html` create an HTML page that:
-
-1. Loads up jQuery
-  * Can you load it from the CDN?
-  * From Bower?
-1. Has a textarea where users can enter a list of teams, separated by newlines
-1. Has a button that users can click to generate a schedule
-1. When the button is clicked, print the schedule according to the wireframe
-1. When the button is clicked again, clear the previous schedule, and recreate
-
-![](img/ui.png)
-
-NOTE: use custom CSS for this - no frameworks.
-
-## Challenge #3 - Pure JS
-
-1. Create a copy of `index.html`
-1. Remove the reference to LoDash
-1. Create a new function `roundRobinPure` and solve it with pure JS
-
-## Challenge #4 - Solve w/ recursion
+Remove all `for` loops.
 
 'nuff said.
 
 ## Resources
 
 * http://en.wikipedia.org/wiki/Round-robin_tournament#Scheduling_algorithm
+* https://en.wikipedia.org/wiki/Round-robin_tournament
