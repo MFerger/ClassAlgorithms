@@ -27,4 +27,26 @@ describe("csvToMarkdownTable", () => {
     expect(csvToMarkdownTable(input)).to.equal(expectedOutput)
   })
 
+  it("works for csv strings with a different number of columns / rows", () => {
+
+    const input = [
+      'A,C',
+      'this,and',
+      'is,lots',
+      'a,of',
+      'string,characters',
+    ].join("\n")
+
+    const expectedOutput = [
+      '| A      | C          |',
+      '| ------ | ---------- |',
+      '| this   | and        |',
+      '| is     | lots       |',
+      '| a      | of         |',
+      '| string | characters |'
+    ].join("\n")
+
+    expect(csvToMarkdownTable(input)).to.equal(expectedOutput)
+  })
+
 })
