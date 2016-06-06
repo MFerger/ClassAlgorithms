@@ -93,7 +93,7 @@ Your round robin function should never return duplicate matches.
 
 You will be working in [Jasmine](http://jasmine.github.io/2.3/introduction.html) to solve this problem.
 
-Open `index.html` in a browser to see the tests run.  As you make changes to your round robin js file, hit refresh (CMD+R) in your browser to run the tests again.
+`$ npm install` and then `$ npm test` to see the tests run.  As you make changes to your round robin js file, re-run `$ npm test` to run the tests again.
 
 ## Challenge #1
 
