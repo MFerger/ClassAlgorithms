@@ -43,7 +43,7 @@ function csvToMarkdownTable(data) {
       }
     })
   })
-  newColumns = newColumns.join('');
+  newColumns = newColumns.join('').substring(0,newColumns.join('').length-1);
   console.log(newColumns);
   return newColumns
 }
